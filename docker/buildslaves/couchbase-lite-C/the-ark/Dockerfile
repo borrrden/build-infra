@@ -19,8 +19,6 @@ RUN apt-get update && apt-get install -y \
     rsync \
     ruby \
     devscripts \
-    g++-arm-linux-gnueabihf \
-    g++-aarch64-linux-gnu \
     libicu-dev \
     zlib1g-dev \
 && rm -rf /var/lib/apt/lists
